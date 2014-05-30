@@ -5,15 +5,16 @@ body {
   color: #eaeaea;
   font: 16px;
   line-height: 1.5;
-  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  font-family: "Ubuntu Mono", "Bitstream Vera Sans Mono", "Lucida Console", monospace;
 }
 
 /* General & 'Reset' Stuff */
 
 .container {
   width: 90%;
-  max-width: 600px;
+  max-width: 780px;
   margin: 0 auto;
+  outline: 1px solid red;
 }
 
 section {
@@ -43,12 +44,21 @@ header {
   margin: 0 0 40px 0;
 }
 
+footer {
+  background: rgba(0, 0, 0, 0.1);
+  width: 100%;
+  border-top: 1px dashed #b5e853;
+  padding: 20px 0;
+  margin: 0 0 40px 0;
+}
+
+
 header h1 {
   font-size: 30px;
   line-height: 1.5;
   margin: 0 0 0 -40px;
   font-weight: bold;
-  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  font-family: "Ubuntu Mono", "Bitstream Vera Sans Mono", "Lucida Console", monospace;
   color: #b5e853;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
                0 0 5px rgba(181, 232, 83, 0.1),
@@ -87,7 +97,7 @@ section img {
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
-  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  font-family: "Ubuntu Mono", "Bitstream Vera Sans Mono", "Lucida Console", monospace;
   color: #b5e853;
   letter-spacing: -0.03em;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
@@ -135,7 +145,7 @@ ul li {
 
 ul li:before {
   content: ">>";
-  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  font-family: "Ubuntu Mono", "Bitstream Vera Sans Mono", "Lucida Console", monospace;
   font-size: 13px;
   color: #b5e853;
   margin-left: -37px;
@@ -147,6 +157,10 @@ blockquote {
   color: #aaa;
   padding-left: 10px;
   border-left: 1px dotted #666;
+}
+
+p {
+  text-align: justify;
 }
 
 pre {
